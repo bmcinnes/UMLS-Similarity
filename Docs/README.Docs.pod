@@ -1,0 +1,36 @@
+=head1 NAME
+
+README.Docs.pod
+
+=head1 SYNOPSIS
+
+Describes the contents of Docs/ directory.
+
+=head1 DESCRIPTION
+
+Docs/ directory contains -
+
+=over
+
+=item * HTML/
+
+Contains script files that generate .html files for perldoc of .pl files 
+of CuiTools.
+
+=item * FAQs.UI.pod
+
+File containing frequently asked questions regarding UMLS-Similarity package and the answers.
+
+=item * README.Docs.pod
+
+This file.
+
+=item * Todo.US.pod [developers]
+
+File containing the ToDo list
+
+=back
+
+=head1 ACKNOWLEDGMENTS
+
+=cut

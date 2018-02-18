@@ -1,0 +1,30 @@
+Default Settings:
+  --precision 4
+
+User Settings:
+  --vectormatrix t/options/vectormatrix
+  --vectorindex t/options/vectorindex
+  --config t/config/rel-config.msh.par-chd
+  --infile t/tests/measures/msh.par-chd
+  --measure vector
+
+
+CuiFinder User Options: 
+   --config option set
+
+
+UMLS-Interface Configuration Information
+  Sources (SABDEF):
+    MSH
+  Relations (RELDEF):
+    CHD
+    PAR
+  Database: 
+    umls (MMSYS-2010AB-20101022)
+
+
+
+
+0.0800<>hand(C0018563)<>skull(C0037303)
+0.3170<>skull(C0037303)<>neck(C0027530)
+0.0000<>neck(C0027530)<>toe(C0040357)

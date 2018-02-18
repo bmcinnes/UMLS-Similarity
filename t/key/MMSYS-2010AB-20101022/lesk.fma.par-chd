@@ -1,0 +1,28 @@
+Default Settings:
+  --precision 4
+
+User Settings:
+  --config t/config/rel-config.fma.par-chd
+  --infile t/tests/measures/fma.par-chd
+  --measure lesk
+
+
+CuiFinder User Options: 
+   --config option set
+
+
+UMLS-Interface Configuration Information
+  Sources (SABDEF):
+    FMA
+  Relations (RELDEF):
+    CHD
+    PAR
+  Database: 
+    umls (MMSYS-2010AB-20101022)
+
+
+
+
+-1.0000<>hand(C0018563)<>skull(C0037303)
+-1.0000<>skull(C0037303)<>neck(C0027530)
+-1.0000<>hand(C0018563)<>neck(C0027530)

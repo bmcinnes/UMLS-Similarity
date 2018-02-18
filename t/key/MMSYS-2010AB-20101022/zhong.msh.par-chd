@@ -1,0 +1,32 @@
+Default Settings:
+  --precision 4
+
+User Settings:
+  --config t/config/config.msh.par-chd
+  --infile t/tests/measures/msh.par-chd
+  --measure zhong
+  --realtime
+
+
+CuiFinder User Options: 
+   --config option set
+
+
+UMLS-Interface Configuration Information
+  Sources (SAB):
+    MSH
+  Relations (REL):
+    CHD
+    PAR
+  Database: 
+    umls (MMSYS-2010AB-20101022)
+
+
+
+PathFinder User Options:
+  --realtime option set
+
+
+0.0312<>hand(C0018563)<>skull(C0037303)
+0.0781<>skull(C0037303)<>neck(C0027530)
+0.1328<>neck(C0027530)<>toe(C0040357)

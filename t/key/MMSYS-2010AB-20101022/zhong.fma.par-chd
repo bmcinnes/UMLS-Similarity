@@ -1,0 +1,32 @@
+Default Settings:
+  --precision 4
+
+User Settings:
+  --config t/config/config.fma.par-chd
+  --infile t/tests/measures/fma.par-chd
+  --measure zhong
+  --realtime
+
+
+CuiFinder User Options: 
+   --config option set
+
+
+UMLS-Interface Configuration Information
+  Sources (SAB):
+    FMA
+  Relations (REL):
+    CHD
+    PAR
+  Database: 
+    umls (MMSYS-2010AB-20101022)
+
+
+
+PathFinder User Options:
+  --realtime option set
+
+
+0.0352<>hand(C0018563)<>skull(C0037303)
+0.0625<>skull(C0037303)<>neck(C0027530)
+0.0703<>hand(C0018563)<>neck(C0027530)
